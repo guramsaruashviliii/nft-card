@@ -36,3 +36,9 @@ body {
   display: none;
   cursor: pointer;
 }
+header {
+  position: relative;
+}
+header:hover > .view {
+  display: flex;
+}
