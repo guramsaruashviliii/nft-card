@@ -36,9 +36,101 @@ body {
   display: none;
   cursor: pointer;
 }
-header {
-  position: relative;
+.Equilibrium {
+  width: 302px;
+
+  border-radius: 8px;
+  margin-bottom: 24px;
 }
 header:hover > .view {
   display: flex;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 27.72px;
+  color: #fff;
+  width: 302px;
+  margin-bottom: 16px;
+}
+p {
+  color: #8bacd9;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+.ETH {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #00fff8;
+}
+.time {
+  gap: 5px;
+  color: #8bacd9;
+  display: flex;
+  align-items: center;
+}
+.avatar-img {
+  width: 33px;
+  height: 33px;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  margin-right: 16px;
+}
+
+.creation {
+  color: #8bacd9;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 22px;
+  margin-bottom: 39px;
+
+  margin-right: 5px;
+}
+.jules {
+  color: #fff;
+  margin-top: 22px;
+  margin-bottom: 39px;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.flex-container {
+  display: flex;
+
+  justify-content: space-between;
+
+  margin-bottom: 24px;
+}
+hr {
+  height: 1px;
+  width: 302px;
+  color: #2e405a;
+}
+
+.flex-container2 {
+  display: flex;
+  align-items: center;
+}
+.container h1:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
+.jules:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
+.Equilibrium:hover {
+  cursor: pointer;
+}
+
+header {
+  position: relative;
 }
